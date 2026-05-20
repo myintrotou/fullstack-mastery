@@ -1,0 +1,29 @@
+# ==========================================
+# .NET / Visual Studio Build Folders (Backend)
+# ==========================================
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+*.sln.docstates
+
+# ==========================================
+# Node / Angular Build Folders (Frontend)
+# ==========================================
+node_modules/
+/dist/
+.angular/
+.tmp/
+.sass-cache/
+connect.lock
+coverage/
+
+# ==========================================
+# Environment / Local Secrets Storage
+# ==========================================
+.env
+.env.local
+.env.*.local
+appsettings.Development.json
+/.vscode/
+/.idea/
